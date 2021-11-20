@@ -22,7 +22,7 @@ const SingleShow = () => {
     }, [])
 
     const getGenre = (e) => {
-        return '  ' + e + ' '
+        return (<span className='SingleShow__genres'>{e}</span>)
     }
 
     const getActualSummary = (summary) => {
@@ -46,7 +46,8 @@ const SingleShow = () => {
 
                 <div className='SingleShow__data'>
 
-                    <p className='SingleShow__genres'>{data.data.genres.map(e => getGenre(e))}</p>
+                    {/* <p className='SingleShow__genres'>{data.data.genres.map(e => getGenre(e))}</p> */}
+                  <p style={{display:'flex'}}> {data.data.genres.map(e => getGenre(e))} </p> 
                     <p className='SingleShow__name'>{data.data.name}</p>
                     <p className='SingleShow__type'><img src={speaker} alt="" />{data.data.type}</p>
                     <p className='SingleShow__data__lang'><img src={mike} alt="" />{data.data.language}</p>

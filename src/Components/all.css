@@ -196,8 +196,9 @@ font-size: 20px;
 }
 .SingleShow__genres{
     border: 2px solid rgba(63, 250, 57, 0.16);
-    display: inline-block;
+    display: inline;
     padding: 7px;
+    margin-left: 1%;
     border-radius: 12px;
     background-color: rgba(224, 236, 84, 0.23);
 }
