@@ -338,10 +338,10 @@ padding: 14px 0px;
            margin-left: 158px;
        }
        .header__links{
-           display: none;
-           position: relative;
-           bottom: 103px;
-           left: 171px;           
+        position: absolute;
+        bottom: 103px;
+        left: 180px;
+        top: 12%;         
        }
        .search__input{
            margin-left: 15%;
