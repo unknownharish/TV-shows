@@ -314,7 +314,7 @@ padding: 14px 0px;
 
 /* responsive */
 
- @media screen and (min-Width:300px) and (max-Width:500px) {
+ @media screen and (min-Width:320px) and (max-Width:500px) {
 
    
     .header{
